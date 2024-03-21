@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "CryptoTracker",
+    "version": "1.0",
+    "description": "Track top 10 gainers and losers in the cryptocurrency market.",
+     "action": {
+      "default_popup": "popup.html",
+      "default_icon":  "logo.jpg"
+    },
+    "icons": {
+        "128":  "logo.jpg"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

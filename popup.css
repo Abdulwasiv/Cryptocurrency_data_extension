@@ -1,0 +1,50 @@
+/* popup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7af9dd9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the popup fills the entire viewport vertically */
+  }
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for gainers and losers lists */
+  #gainers-list, #losers-list {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  #gainers-list li, #losers-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #gainers-list li:last-child, #losers-list li:last-child {
+    border-bottom: none;
+  }
+  
